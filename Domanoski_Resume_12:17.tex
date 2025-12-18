@@ -1,0 +1,162 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1.2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+% Custom Colors
+\definecolor{sectionblue}{RGB}{0, 70, 130}
+
+% Section formatting
+\titleformat{\section}{\color{sectionblue}\scshape\Large\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\large\color{black}}{}{0em}{}
+
+% Item spacing
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=1.5em}
+
+% Custom Commands
+\newcommand{\name}{\textbf{\Large Anthony E. Domanoski }}
+% \newcommand{\titletext}{\textit{Data Analyst – County of Monmouth, NJ}}
+\newcommand{\contactinfo}{
+  \href{mailto:adomanoski85@gmail.com}{adomanoski85@gmail.com} \quad
+  \href{https://github.com/Domanoski0282}{github.com/Domanoski0282} \quad
+  \href{https://www.linkedin.com/in/anthony-domanoski-713a2b361/}{LinkedIn} \quad
+  Monmouth County, NJ \quad 
+}
+
+\begin{document}
+\pagestyle{empty}
+
+%===================%
+%     Header        %
+%===================%
+\begin{center}
+  {\small \name} \\[-0.2em]
+  {\href{mailto:adomanoski85@gmail.com}{adomanoski85@gmail.com} \quad
+  \href{https://github.com/Domanoski0282}{github.com/Domanoski0282} \quad
+  \href{https://www.linkedin.com/in/anthony-domanoski-713a2b361/}{LinkedIn} \quad
+  Monmouth County, NJ \quad
+  }
+\end{center}
+
+\vspace{0.5mm}
+\hrule
+\vspace{0.5mm}
+
+% %===================%
+% %     Summary       %
+% %===================%
+\section*{Summary}
+ Data-driven professional transitioning from an 8-year career in law enforcement into data analytics. 
+ Known for operational precision, pattern recognition, and decision-making in high-stakes environments. 
+ Proficient in Excel, SQL, PowerBI, with ongoing training in Python, Azure and AWS. 
+ Brings a disciplined, mission-oriented approach to solving complex problems with data. 
+
+%============================%
+%   Skills & Technologies   %
+%============================%
+\section*{Skills \& Technologies}
+
+\textbf{Languages:} SQL, Python, LaTeX \\
+\textbf{ML / AI:} Cursor, Claude, ChatGPT\\
+\textbf{Frameworks:} Nodejs, ETL, REST APIs \\
+\textbf{Cloud / Tools:} Docker, GitHub, Tableau, Power BI, Heap, MixPanel,
+ Jupyter Notebooks, Colab, Microsoft Excel \\
+\textbf{Methods:} A/B Testing, Optimization \\
+\textbf{OSINT:} TLO, Motorola Vigilant ALPR Systems Operator 
+
+% %===================%
+% %    Projects    %
+% %===================%
+\section*{Projects}
+
+\textbf{U.S. Public Debt Analysis | Excel} \\
+\href{https://github.com/Domanoski0282/US-Debt-Tracker-Project}{https://github.com/Domanoski0282/US-Debt-Tracker-Project}
+
+\begin{itemize}
+  \item Analyzed publicly available U.S. government debt data to identify long-term trends, growth rates, and component-level drivers of total public debt.
+  \item Data { cleaning and pre processing} were performed, including date normalization, numeric standardization, and handling missing or inconsistent values.
+  \item Built {Pivot Tables} to aggregate and compare debt metrics in monthly and yearly time periods.
+  \item Created {calculated fields and Excel formulas} to compute percentage changes and trend indicators year-over-year.
+  \item Developed {time-series visualizations} to support exploratory data analysis and clearly communicate insights.
+  \item Evaluated relationships between {Debt Held by the Public}, {Intergovernmental Holdings}, and {Total Public Debt Outstanding}.
+\end{itemize}
+
+\textbf{Tools:} Microsoft Excel (Pivot Tables, formulas, charts), public U.S. government datasets
+
+%%\par\noindent\textbf{Oura Ring Health Data Project}  
+%%\newline\textit{ETL Oura Ring Data from Cloud Server to Local Machine}  
+%%\begin{itemize}
+  %%\item Cleaning and analyzing data from wearable devices to identify sleep and recovery trends
+  %%\item Using SQL for querying, Excel for data cleaning, and Tableau for dashboard visualizations
+  %%\item Using AI tools to help debug and check work. 
+%%\end{itemize}
+
+%===================%
+\par\noindent\textbf{Sandy Hook Ocean Conditions Monitor — Real-Time Marine Data Analytics System}  
+\newline\textit{Real-Time Ocean Conditions Monitoring and Analysis}  
+\begin{itemize}
+  \item Integrated two NOAA APIs (NDBC and CO-OPS) to retrieve real-time wave, wind, pressure, and tide data
+  \item Built robust parser for NDBC text data that handles format variations, duplicate columns, and missing values
+  \item Implemented time-series analysis with anomaly detection, automated reporting, and data visualization using Python, Pandas, NumPy, and Matplotlib
+\end{itemize}
+
+%===================%
+%     Education     %
+%===================%
+\section*{Education}
+
+\par\noindent\textbf{Analyst Builder Data Analytics Program}  
+\newline\textit{Analyst Builder, 2025 | In Progress}
+
+\vspace{0.3em}
+
+\par\noindent\textbf{Associate of Science}  
+\newline\textit{Ocean County College, 2014 | Criminal Justice}  
+
+\vspace{0.3em}
+
+%============================%
+%   Certifications   %
+%============================%
+\section*{Certifications}
+\textbf{Data Analytics:} SQL, Microsoft Excel for Data Analytics \\
+\textbf{Policing:} NJ PTC Class A Officer\\
+\textbf{Combatives:} Defensive Tactics Instructor | Brown Belt, BJJ\\
+\textbf{Teaching:} Methods of Instruction\\
+\textbf{Investigations:} Criminal Interdiction, Domestic Violence Training, Vehicle Pursuit, and Use of Force \\
+
+
+% %===================%
+% %    Experience     %
+% %===================%
+\section*{Experience}
+
+\subsection*{Technology / Government}
+
+\par\noindent\textbf{Police Officer}  
+\newline\textit{Township of Livingston, NJ – Livingston Township Police Department (2022–Present)}  
+\begin{itemize}
+  \item Engaged in data-informed patrol strategies that reduced vehicle theft incidents
+  \item Supported investigations requiring critical analysis and situational judgment
+  \item Use of SAS and other programs to answer calls for service and report writing
+\end{itemize}
+
+\par\noindent\textbf{Police Officer}  
+\newline\textit{Green Brook, NJ – Green Brook Township Police Department (2017–2022)}  
+\begin{itemize}
+  \item Ranked 2nd in departmental arrests two years consecutively through proactive policing
+  \item Authored detailed reports to support legal outcomes and internal evaluations
+  \item Use of SAS and other programs to answer calls for service and report writing
+\end{itemize}
+
+\end{document}
